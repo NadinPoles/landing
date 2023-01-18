@@ -12,7 +12,7 @@ const Header = () => {
         <div className="row">
           <div className="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 logo">
             <a href="/">
-              <img src="/images/logo.png" alt="логотип" />
+              <img src="images/logo.png" alt="логотип" />
             </a>
             <span className="logo_phone_number">
               <a href="tel:+375296202264">+375 (29) 620-22-64</a>
