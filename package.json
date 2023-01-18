@@ -2,6 +2,7 @@
   "name": "landing",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://nadinpoles.github.io/landing",
   "dependencies": {
     "@fancyapps/fancybox": "^3.5.7",
     "@fancyapps/ui": "^4.0.31",
@@ -16,6 +17,7 @@
     "@types/react-dom": "^18.0.10",
     "@types/yandex-maps": "^2.1.29",
     "bootstrap": "^5.2.3",
+    "gh-pages": "^4.0.0",
     "loader": "^2.1.1",
     "match-media": "^0.2.0",
     "react": "^18.2.0",
@@ -36,7 +38,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom --transformIgnorePatterns 'node_modules/(?!(react-accordion-ts|@fancyapps/ui|react-tabs)/)'",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
