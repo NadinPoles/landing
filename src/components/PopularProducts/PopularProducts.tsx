@@ -53,7 +53,7 @@ const PopularProducts = () => {
                   <div className="popular_block_img">
                     {product.image && (
                       <img
-                        src={`/images/${product.image}`}
+                        src={`images/${product.image}`}
                         alt={product.title}
                       />
                     )}
