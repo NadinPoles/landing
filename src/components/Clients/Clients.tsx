@@ -50,7 +50,7 @@ const Clients = () => {
                 client.image && (
                   <div className="item" key={client.id}>
                     <div className="clients_block text-center">
-                      <img src={`/images/${client.image}`} alt="Клиент" />
+                      <img src={`images/${client.image}`} alt="Клиент" />
                     </div>
                   </div>
                 )

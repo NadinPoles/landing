@@ -20,7 +20,7 @@ const Advantages = () => {
                 <div className="advantages_block_img">
                   {advantage.image && (
                     <img
-                      src={`/images/${advantage.image}`}
+                      src={`images/${advantage.image}`}
                       alt={advantage.title}
                     />
                   )}

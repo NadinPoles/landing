@@ -29,7 +29,7 @@ const Services = () => {
                     </span>
                     {service.image && (
                       <img
-                        src={`/images/${service.image}`}
+                        src={`images/${service.image}`}
                         alt={service.title}
                       />
                     )}

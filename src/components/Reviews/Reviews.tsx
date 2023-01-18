@@ -37,7 +37,7 @@ const Reviews = () => {
                 <div className="reviews_block text-center">
                   <div className="reviews_block_img">
                     {review.image && (
-                      <img src={`/images/${review.image}`} alt={review.title} />
+                      <img src={`images/${review.image}`} alt={review.title} />
                     )}
                   </div>
                   <div className="reviews_block_text">{review.text}</div>

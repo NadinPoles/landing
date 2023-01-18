@@ -12,7 +12,7 @@ const Footer = () => {
               <div className="footer_text text-center">
                 <p>СВЯЗЬ С НАМИ</p>
                 <p>
-                  <img src="/images/phone.png" alt="phone" />
+                  <img src="images/phone.png" alt="phone" />
                   <a href="tel:+375296202264">+375 (29) 620-22-64</a>
                 </p>
                 <p>
@@ -28,7 +28,7 @@ const Footer = () => {
                       key={social.id}
                     >
                       <img
-                        src={`/images/${social.image}`}
+                        src={`images/${social.image}`}
                         alt={social.title}
                         width="40"
                       />

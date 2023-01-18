@@ -20,7 +20,7 @@ const Tarifs = () => {
                 <div className="tarif_block_title">{tarif.title}</div>
                 <div className="tarif_block_img">
                   {tarif.image && (
-                    <img src={`/images/${tarif.image}`} alt={tarif.title} />
+                    <img src={`images/${tarif.image}`} alt={tarif.title} />
                   )}
                 </div>
                 <div>{tarif.text}</div>

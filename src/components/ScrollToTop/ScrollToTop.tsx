@@ -21,7 +21,7 @@ const ScrollToTop = () => {
     <>
       {showTopBtn && (
         <a className="to-top visible" onClick={goToTop}>
-          <img width="42" src="/images/top.png" alt="Вверх" />
+          <img width="42" src="images/top.png" alt="Вверх" />
         </a>
       )}
     </>

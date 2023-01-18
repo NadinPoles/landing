@@ -14,12 +14,12 @@ const Sale = () => {
             </p>
             <p>Позвоните нам на любой номер:</p>
             <p>
-              <img src="/images/velcom.png" alt="velcom" width="20" />
+              <img src="images/velcom.png" alt="velcom" width="20" />
               &nbsp; <a href="tel:+375296202264">+375 (29) 620-22-64</a>
             </p>
             <p>
               <a href="tel:+375297206667">
-                <img src="/images/mts.png" alt="mts" width="20" height="20" />
+                <img src="images/mts.png" alt="mts" width="20" height="20" />
                 &nbsp; +375 (29) 720-66-67
               </a>
             </p>

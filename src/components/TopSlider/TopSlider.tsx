@@ -25,7 +25,7 @@ const TopSlider = () => {
             <div
               className="item"
               style={{
-                background: "url('/images/slide1.jpg') no-repeat 0 0",
+                background: "url('images/slide1.jpg') no-repeat 0 0",
                 backgroundSize: "cover",
               }}
             >
@@ -64,7 +64,7 @@ const TopSlider = () => {
             <div
               className="item"
               style={{
-                background: "url('/images/slide2.jpg') no-repeat 0 0",
+                background: "url('images/slide2.jpg') no-repeat 0 0",
                 backgroundSize: "cover",
               }}
             >

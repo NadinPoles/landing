@@ -28,10 +28,10 @@ const Gallery = () => {
                       <a
                         className="fancybox_img"
                         data-fancybox="gallery"
-                        href={`/images/${gallery.image}`}
+                        href={`images/${gallery.image}`}
                       >
                         <img
-                          src={`/images/${gallery.image}`}
+                          src={`images/${gallery.image}`}
                           alt="Фотогалерея"
                         />
                       </a>
